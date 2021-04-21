@@ -4,10 +4,12 @@ body {
     font-family: 'RocknRoll One', sans-serif;
     background-color: rgb(156, 207, 216);
     margin: 0;
+    color: rgb(89, 84, 109);
 }
 
 h1 {
     font-family: 'Indie Flower', cursive;
+    color: white;
 }
 
 
@@ -33,6 +35,10 @@ main {
     text-align: center;
 }
 
+main h2 {
+    font-size: 1.2em;
+}
+
 #album-section span {
     display: block;
 }
@@ -44,6 +50,7 @@ main {
 
 #cart-section {
     background-color: rgb(224, 222, 244);
+    padding-bottom: 1em;
 }
 
 #footer-nav {
@@ -59,6 +66,10 @@ footer {
     background-color: rgb(49, 116, 143);
     text-align: center;
     color: white;
+    height: 4em;
+    align-items: center;
+    display: flex;
+    margin-top: .5em;
 }
 
 
