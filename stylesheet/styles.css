@@ -5,6 +5,7 @@ body {
     background-color: rgb(156, 207, 216);
     margin: 0;
     color: rgb(89, 84, 109);
+    height: 100vh;
 }
 
 h1 {
@@ -51,6 +52,8 @@ main h2 {
 #cart-section {
     background-color: rgb(224, 222, 244);
     padding-bottom: 1em;
+    display: grid;
+    margin: 1em 0;
 }
 
 #footer-nav {
@@ -67,8 +70,8 @@ footer {
     text-align: center;
     color: white;
     height: 4em;
-    align-items: center;
     display: flex;
+    align-items: center;
     margin-top: .5em;
 }
 
@@ -76,9 +79,26 @@ footer {
 /* larger screen */
 
 @media screen and (min-width: 640px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    header h1 {
+        margin: .1em 0;
+    }
     /* top navigation */
     #top-nav ul {
         display: flex;
         justify-content: space-evenly;
+    }
+    /* album section */
+    #album-section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2em;
+    }
+    footer {
+        margin-top: auto;
+        justify-content: center;
     }
 }
