@@ -2,10 +2,63 @@
 
 body {
     font-family: 'RocknRoll One', sans-serif;
+    background-color: rgb(156, 207, 216);
+    margin: 0;
 }
 
 h1 {
     font-family: 'Indie Flower', cursive;
+}
+
+
+/* header */
+
+header {
+    background-color: rgb(49, 116, 143);
+    text-align: center;
+}
+
+
+/* navigation bar */
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+
+/* main content */
+
+main {
+    text-align: center;
+}
+
+#album-section span {
+    display: block;
+}
+
+#album-section span {
+    display: block;
+    margin: 0 auto;
+}
+
+#cart-section {
+    background-color: rgb(224, 222, 244);
+}
+
+#footer-nav {
+    border-bottom: 1px solid grey;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/* footer */
+
+footer {
+    background-color: rgb(49, 116, 143);
+    text-align: center;
+    color: white;
 }
 
 
