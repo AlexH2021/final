@@ -75,4 +75,10 @@ footer {
 
 /* larger screen */
 
-@media screen and (min-width:640px) {}
+@media screen and (min-width: 640px) {
+    /* top navigation */
+    #top-nav ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
