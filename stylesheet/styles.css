@@ -40,8 +40,8 @@ main h2 {
     font-size: 1.2em;
 }
 
-#album-section span {
-    display: block;
+#album-section h2 {
+    grid-column: 1/-1;
 }
 
 #album-section span {
