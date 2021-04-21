@@ -56,10 +56,19 @@ main h2 {
     margin: 1em 0;
 }
 
-#footer-nav {
-    border-bottom: 1px solid grey;
-    display: flex;
+#footer-cart {
+    display: grid;
     justify-content: space-around;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#footer-cart span {
+    border-bottom: 1px solid grey;
+}
+
+#footer-cart img {
+    margin: 1em auto;
+    width: 25%;
 }
 
 
