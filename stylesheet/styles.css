@@ -1,0 +1,14 @@
+/* smaller screen first */
+
+body {
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+/* larger screen */
+
+@media screen and (min-width:640px) {}
